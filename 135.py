@@ -14,5 +14,7 @@ for x in Dict:
 	for i in x:
 		if i not in arr:
 			bool=False
+		if x.count(i)>arr.count(i):
+			bool=False
 	if bool:print(x)
 

@@ -3,3 +3,5 @@ str = input("enter a sentence")
 str = str.split(" ")
 str = set( str )
 print ( *str )
+
+
